@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+*, *:before, *:after{
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #384047;
+
+}
+form
+{
+    max-width: 300px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background: #f4f7f8;
+    border-radius: 8px;
+
+}
+h1{
+    margin: 30px;
+    text-align: center;
+
+
+}
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select{
+    background: rgb(255, 255, 255, .1);
+    border: none;
+    font-size: 20px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 15px;
+    width: 100%;
+    background-color: #e8eeef;
+    color: #8897a0;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 30px;
+
+}
+input[type="radio"],
+input[type="checkbox"]
+{
+    margin: 0 4px 8px 0;
+}
+select{
+    padding: 6px;
+    height: 32px;
+    border-radius: 2px;
+
+}
+button {
+    background-color: #4CAF50; /* Green */
+    border: 1px solid #3ac162;
+    color: white;
+    padding: 19px 39px 18px 39px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 100%;
+    border-width: 1px 1px 3px;
+    
+  }
+  button:hover{
+    color: aqua;
+    background-color: rgb(50, 80, 107);
+    transition: 2s;
+  }
+  fieldset{
+    margin-bottom: 30px;
+    border: none;
+  }
+  legend{
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+  }
+  label{
+    display: block;
+    margin-bottom: 8px;
+    
+  }
+  label.light{
+    font-weight: 300 ;
+    display: inline;
+
+  }
+  .number{
+    background-color: #5fcf80;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+  border-radius: 100%;
+  }
+  @media screen and (min-width:480px){
+    form{
+        max-width: 480px;
+    }
+  }
